@@ -12,7 +12,7 @@
     <!-- Header strat -->
     <header>
         <!-- navbar start  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="./images/logo.png" alt="">
@@ -26,13 +26,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#subcribe">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -122,7 +122,7 @@
         </section>
         <!-- Categories end -->
         <!-- Shoes section start -->
-        <section class="container">
+        <section id="shoes" class="container">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -164,8 +164,8 @@
               </div>
         </section>
         <!-- Shoes section end -->
-        <!-- Begs Section Start -->
-        <section class="container my-5">
+        <!-- Bags Section Start -->
+        <section id="backpack" class="container my-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -206,7 +206,17 @@
                 </div>
               </div>
         </section>
-        <!-- Begs Section End -->
+        <!-- Bags Section End -->
+        <!-- subcribe section start -->
+        <section style="height: 350px;" class="container bg-info d-flex justify-content-center align-items-center my-4" id="subcribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <input type="text" placeholder="Enter Your Email">
+                <button class="btn btn-warning">Submit</button>
+            </div>
+        </section>
+        <!-- subcribe section end -->
     </main>
     <!-- Main section end -->
     <!-- bootstrap script -->
